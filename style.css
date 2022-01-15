@@ -58,8 +58,7 @@ nav {
 }
 .dropdown {
   width: 100vw;
-  height: calc(100vh - 8.5vh);
-  margin-top: 8.5vh;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -401,7 +400,7 @@ nav {
     display: none;
   }
 
-  .fa-bars {
+  #menuBtn {
     display: block;
     cursor: pointer;
     font-size: 1.5em;
